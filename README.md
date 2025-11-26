@@ -8,21 +8,28 @@ Compare traditional ML vs. transformer models
 Evaluate model accuracy, precision, recall, and F1-score
 Perform error analysis for better understanding
 
-How to run locally:
+Steps to run locally: 
 Step1:
+
 git clone https://github.com/Akshay-1031/NLP-PROJECT
 cd <NLP-PROJECT>
+
+
 Step 2:
 python -m venv venv
 venv\Scripts\activate
+
 Step 3:
+
 pip install -r requirements.txt
+
 Step 4:
+
 if running in Jupyter notebook:
 jupyter notebook
 ADR_Transformer_Project.ipynb
 
-Dataset:
+Datasets used:
 
 ADE Corpus V2
 Binary classification: ADR vs Non-ADR
